@@ -8,7 +8,8 @@
   "exports": {
     "import": "./dist/mz-math.esm.js",
     "require": "./dist/mz-math.node.cjs",
-    "default": "./dist/mz-math.esm.js"
+    "default": "./dist/mz-math.esm.js",
+    "types": "./dist/index.d.ts"
   },
   "scripts": {
     "build:all": "npm run build:es6 & npm run build:node & npm run build:esm",
